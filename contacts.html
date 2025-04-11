@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     @font-face {
+        font-family:'Lora';
+        src: url(fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
+    }
+     body{
+        background-image: url(images/contactsbg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    *{
+        text-decoration: none;
+    }
+    .navbar{
+        font-family:sans-serif; 
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10px;
+    }
+    .navdiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+    }
+    li {
+    list-style: none; 
+    display: inline-block;
+    margin-right: 20px; 
+    }
+    li a{
+        color: black; 
+        font-size: 20px; 
+        font-weight: lighter; 
+        margin-right: 25px;
+        text-decoration: underline;
+        font-family: 'Lora';
+    }
+    .logo{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    h1{
+        font-size: 70px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 60px;
+    }
+    .contact-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('background-image.jpg') no-repeat center center/cover;
+            padding: 20px;
+            color: black;
+            border-radius: 10px;
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 400px;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .contact-info img {
+            width: 25px;
+            height: 25px;
+        }
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .separator {
+            width: 2px;
+            height: 100px;
+            background-color: #9a5a3a;
+            margin: 0 20px;
+        }
+        .social-icons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+</style>
+</head>
+<body>
+    <body>
+        <div class="logo"><img src="images/logo.png" width="70"></div>
+        <nav class="navbar">
+        <div class="navdiv">
+            
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Contact Me</h1>
+    </div>
+
+    <div class="contact-section">
+
+        <div class="contact-details">
+            <div class="contact-info">
+                <img src="images/5.png" alt="Phone">
+                <span>0927-8676-253</span>
+            </div>
+            <div class="contact-info">
+                <img src="images/4.png" alt="Email">
+                <span>jmlopez0264qc@student.fatima.edu.ph</span>
+            </div>
+            <div class="contact-info">
+                <img src="images/3.png" alt="Location">
+                <span>Quezon City, Philippines</span>
+            </div>
+        </div>
+
+        
+        <div class="separator"></div>
+
+        
+        <div class="social-icons">
+            <a href="#"><img src="images/2.png" alt="Facebook"></a>
+            <a href="#"><img src="images/1.png" alt="Twitter"></a>
+        </div>
+    </div>
+
+        
+</body>
+
+</html>

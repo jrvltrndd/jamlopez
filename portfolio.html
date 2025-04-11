@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     @font-face {
+        font-family:'Lora';
+        src: url(fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
+    }
+    body{
+        background-image: url(images/portfoliobg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    *{
+        text-decoration: none;
+    }
+    .navbar{
+        font-family:sans-serif; 
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10px;
+    }
+    .navdiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+    }
+    li {
+    list-style: none; 
+    display: inline-block;
+    margin-right: 20px; 
+    }
+    li a{
+        color: black; 
+        font-size: 20px; 
+        font-weight: lighter; 
+        margin-right: 25px;
+        text-decoration: underline;
+        font-family: 'Lora';
+    }
+    .logo{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .pic1{
+    position: absolute;    
+    margin-top: 200px;
+    margin-left: 360px;
+    }
+    .pic2{
+    position: absolute;    
+    margin-top: 385px;
+    margin-left: 780px;
+    }
+   
+
+    li .list{
+    list-style-type: square; /* Options: disc, circle, square, none */
+    display: contents;
+
+}
+.bullet-list {
+            list-style-type: disc;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 800px;
+        }
+p{
+    font: 27px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 60px;
+
+}
+   
+</style>
+</head>
+<body>
+    <div class="logo"><img src="images/logo.png" width="65" ></div>
+    <nav class="navbar">
+    <div class="navdiv">
+        
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+
+       
+    </div>
+
+</nav>
+
+<div class="content">
+
+<div class="pic1"><img src="images/pic1.png" width="200"></div>
+<div class="pic2"><img src="images/pic2.png" width="240"></div>
+
+<ul class="bullet-list">
+    <li>• Design</li><br>
+    <li>• Photography</li><br>
+    <li>• Video Editing</li><br>
+    <li>• Content Writing</li><br>
+    <li>• Communication</li><br>
+    <li>• Marketing</li>
+</ul>
+<p>
+In my +5 years career, I took a part in 3 <br>
+companies and help them growing up.<br>
+Being a professional Graphic Designer is <br>
+my dream, so I enjoy finishing design and <br>
+try something new for my project.
+</p>
+    
+</body>
+</html>

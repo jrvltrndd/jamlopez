@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+       
+       
+<style>
+    @font-face {
+        font-family:'Lora';
+        src: url(fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'The Seasons';
+        src: url(fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf);
+    }
+    body{
+        background-image: url(images/indexbg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    *{
+        text-decoration: none;
+    }
+    .navbar{
+        font-family:sans-serif; 
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10px;
+    }
+    .navdiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+    }
+    li {
+    list-style: none; 
+    display: inline-block;
+    margin-right: 20px; 
+}
+    li a{
+        color: black; 
+        font-size: 20px; 
+        font-weight: lighter; 
+        margin-right: 25px;
+        text-decoration: underline;
+        font-family: 'Lora';
+    }
+    .logo{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+    h1{
+        font-size: 68px;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 100px;
+    }
+    h2{
+        font-size: 35.2px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+    p{
+        font-size: 28.7px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 100px;
+        font-weight: lighter;
+    }
+    .profile {
+    width: 280px; 
+    height: 280px; 
+    overflow: hidden;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white; 
+    border-radius: 140px 140px 0 0; 
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+</style>
+</head>
+<body>
+    <div class="logo"><img src="images/logo.png" width="70"></div>
+    <nav class="navbar">
+    <div class="navdiv">
+        
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="content">
+    <h1>Graphic Designer <br>& Illustrator
+    </h1>
+    <h2>-Jamie M. Lopez</h2>
+    <p>I'm a professional Graphic<br> Designer & Illustrator with more <br> than 5 years experience.</p>
+</div>
+<div class="profile"><img src="images/jamie lopez.jpg" width="280"></div>
+    
+</body>
+</html>
